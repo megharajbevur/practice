@@ -1,0 +1,17 @@
+class RocketRunner{
+public static void main(String[] args)
+{
+System.out.println("********************************************");
+Rocket rocket=new Rocket();
+Rocket rocket1=new Rocket("23",7666);
+System.out.println("The colour of the Rocket="+rocket.colour);
+System.out.println("The fuel used is="+rocket.fuel);
+System.out.println("The cost for the fuel is="+rocket.cost);
+System.out.println("------------------------------------------------");
+
+
+System.out.println("The colour of the Rocket="+rocket1.colour);
+System.out.println("The fuel used is="+rocket1.fuel);
+
+}
+}

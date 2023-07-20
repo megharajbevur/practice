@@ -1,0 +1,19 @@
+class Wallet{
+	String colour;
+	int sockets;
+	int cost;
+	Wallet()
+	{
+	System.out.println("Running the no argument value");
+	this.colour="Black";
+	this.sockets=5;
+    this.cost=1200;
+	}
+	
+	Wallet(String brand,int shape)
+	{
+	System.out.println("Running the argument program");
+	this.colour=brand;
+	this.sockets=shape;
+	}
+	}

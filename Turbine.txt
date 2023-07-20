@@ -1,0 +1,24 @@
+class Turbine{
+	String cost;
+	String colour;
+	int blades;
+	Turbine()
+	{
+		System.out.println("Running the no argument program");
+		System.out.println("The cost is "+this.cost);
+		System.out.println("The colour is"+this.colour);
+		System.out.println("The Blades are"+this.blades);
+		System.out.println("********************************");
+			this.cost ="373";			
+			this.colour="white";
+	 	this.blades=7;
+	}
+	
+Turbine(String cost,String colour,int blades)
+{
+	System.out.println("Running the ARguments value");
+	this.cost  =cost;
+	this.colour=colour;
+	this.blades=blades;
+}
+}

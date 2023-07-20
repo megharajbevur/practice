@@ -1,0 +1,20 @@
+class WalletRunner{
+	
+	public static void main(String[] args)
+	{
+	System.out.println("Invoking main in WalletRunner");
+	
+	Wallet wallet=new Wallet();
+	System.out.println(wallet.colour);
+	System.out.println(wallet.sockets);
+	System.out.println(wallet.cost);
+	
+	
+	System.out.println("================");
+
+	Wallet wallet1=new Wallet("wrogn",65);
+	System.out.println(wallet1.colour);
+	System.out.println(wallet1.sockets);
+
+}
+}
